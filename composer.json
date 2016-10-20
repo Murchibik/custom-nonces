@@ -2,9 +2,9 @@
   "name": "murchibik/custom-nonces",
   "description": "Implements functionality like in Wordpress Nonces",
   "require": {
-    "php": "^5.3.3 || ^7.0"
+    "php": ">=5.3.0"
   },
   "autoload": {
-    "classmap": ["custom-nonces/"]
+    "classmap": ["src/"]
   }
 }
