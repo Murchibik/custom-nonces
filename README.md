@@ -31,16 +31,3 @@ For using custom label you can use function `setCustomLabel` with an argument **
 To check, separately transmit url and nonce into function `checkNonce`. In return you get array of two elements:
  * status - boolean *true*, if checking didn't find any changes in string or *false*, if something is incorrect.
  * errors - empty string if status is *true* or explanation of error if status is *false*.
- 
-## Testing
-The library uses Codeception for unit tests. To enable it, update Composer in dev mode like this (in console): 
-
-`composer update --dev`
-
-and then
-
-`codecept bootstrap`
-
-it added in in your root folder file **codeception.yml** and folder **tests**, so then for running tests just type in console this:
-
-`codecept run`

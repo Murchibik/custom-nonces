@@ -4,6 +4,10 @@
   "require": {
     "php": ">=5.3.0"
   },
+  "authors" : {
+    "name" : "Oleh Tipa",
+    "email" : "murchibik@gmail.com"
+  },
   "autoload": {
     "classmap": ["src/"]
   },
